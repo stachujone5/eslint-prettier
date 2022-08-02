@@ -1,19 +1,36 @@
 {
-  "name": "eslint-prettier",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "s",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stachujone5/eslint-prettier.git"
+  "dependencies": {
+    "next": "12.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stachujone5/eslint-prettier/issues"
-  },
-  "homepage": "https://github.com/stachujone5/eslint-prettier#readme"
+  "devDependencies": {
+    "@types/node": "18.6.3",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.21.0",
+    "eslint-config-next": "12.2.3",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-functional": "^4.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "eslint-plugin-unicorn": "^40.1.0",
+    "sass": "^1.54.0",
+    "typescript": "4.7.4"
+  }
 }
