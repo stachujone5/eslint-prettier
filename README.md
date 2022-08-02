@@ -1,1 +1,1 @@
-# My current eslint & prettier config
+# My current eslint & prettier config in a blank NEXT app
